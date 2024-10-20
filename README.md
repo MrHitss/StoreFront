@@ -59,4 +59,11 @@ php artisan migrate
 php artisan serve
 ```
 
+## References (Screenshots)
+
+<img width="500" alt="Home Page" src="https://github.com/user-attachments/assets/d481eb27-f919-420c-a29e-2045b63fa12a">
+<img width="500" alt="Dynamic Page Builder" src="https://github.com/user-attachments/assets/7bf173cb-ecdd-472d-b8cb-823e85ed2453">
+
+
+
 Thank you for checking out the Dynamic Page Builder project!
