@@ -24,8 +24,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/grapesjs/0.21.13/grapes.min.js" integrity="sha512-vnAsqCtkvU3XqbVNK0pQQ6F8Q98PDpGMpts9I4AJdauEZQVbqZGvJdXfvdKEnLC4o7Z1YfnNzsx+V/+NXo/08g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    
+    <script src="https://unpkg.com/grapesjs@0.22.1/dist/grapes.min.js" ></script>
+    <script src="https://unpkg.com/grapesjs-preset-webpage@1.0.3/dist/index.js"></script>
+
     @yield('scripts')
 </body>
 

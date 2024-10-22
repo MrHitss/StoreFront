@@ -41,11 +41,16 @@
 
 @section('scripts')
 <script>
+    
     const SnippetBuilder = function() {
         const editor = grapesjs.init({
                 container: '#gjs',
                 fromElement: true,
                 storageManager: false,
+                plugins:["gjs-preset-webpage"],
+                pluginsOpts: {
+                    "gjs-perset-webpage": {}
+                },
                 blockManager: {
                     appendTo: '#grapesjs-sidebar',
                     blocks: [
