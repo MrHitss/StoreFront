@@ -59,6 +59,18 @@ php artisan migrate
 php artisan serve
 ```
 
+## Test the Application
+
+### Step 1: Generate the Key
+```bash
+php artisan key:generate --env=testing
+```
+
+### Step 2: Run the TestCases
+```bash
+php artisan test
+```
+
 ## References (Screenshots)
 
 <img width="500" alt="Home Page" src="https://github.com/user-attachments/assets/d481eb27-f919-420c-a29e-2045b63fa12a">
